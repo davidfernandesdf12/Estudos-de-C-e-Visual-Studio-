@@ -1,0 +1,9 @@
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo01\GastoEmRestaurante\bin\Debug\GastoEmRestaurante.exe.config
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo01\GastoEmRestaurante\bin\Debug\GastoEmRestaurante.exe
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo01\GastoEmRestaurante\bin\Debug\GastoEmRestaurante.pdb
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo01\GastoEmRestaurante\obj\Debug\GastoEmRestaurante.FormGastoEmRestaurante.resources
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo01\GastoEmRestaurante\obj\Debug\GastoEmRestaurante.Properties.Resources.resources
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo01\GastoEmRestaurante\obj\Debug\GastoEmRestaurante.csproj.GenerateResource.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo01\GastoEmRestaurante\obj\Debug\GastoEmRestaurante.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo01\GastoEmRestaurante\obj\Debug\GastoEmRestaurante.exe
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo01\GastoEmRestaurante\obj\Debug\GastoEmRestaurante.pdb
