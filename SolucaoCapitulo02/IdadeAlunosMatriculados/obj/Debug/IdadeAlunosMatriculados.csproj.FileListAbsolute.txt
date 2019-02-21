@@ -1,0 +1,11 @@
+C:\Users\david\Source\Repos\SolucaoCapitulo02\IdadeAlunosMatriculados\bin\Debug\IdadeAlunosMatriculados.exe.config
+C:\Users\david\Source\Repos\SolucaoCapitulo02\IdadeAlunosMatriculados\bin\Debug\IdadeAlunosMatriculados.exe
+C:\Users\david\Source\Repos\SolucaoCapitulo02\IdadeAlunosMatriculados\bin\Debug\IdadeAlunosMatriculados.pdb
+C:\Users\david\Source\Repos\SolucaoCapitulo02\IdadeAlunosMatriculados\obj\Debug\IdadeAlunosMatriculados.csprojAssemblyReference.cache
+C:\Users\david\Source\Repos\SolucaoCapitulo02\IdadeAlunosMatriculados\obj\Debug\IdadeAlunosMatriculados.Form1.resources
+C:\Users\david\Source\Repos\SolucaoCapitulo02\IdadeAlunosMatriculados\obj\Debug\IdadeAlunosMatriculados.Properties.Resources.resources
+C:\Users\david\Source\Repos\SolucaoCapitulo02\IdadeAlunosMatriculados\obj\Debug\IdadeAlunosMatriculados.csproj.GenerateResource.cache
+C:\Users\david\Source\Repos\SolucaoCapitulo02\IdadeAlunosMatriculados\obj\Debug\IdadeAlunosMatriculados.csproj.CoreCompileInputs.cache
+C:\Users\david\Source\Repos\SolucaoCapitulo02\IdadeAlunosMatriculados\obj\Debug\IdadeAlunosMatriculados.exe
+C:\Users\david\Source\Repos\SolucaoCapitulo02\IdadeAlunosMatriculados\obj\Debug\IdadeAlunosMatriculados.pdb
+C:\Users\david\Source\Repos\SolucaoCapitulo02\IdadeAlunosMatriculados\obj\Debug\IdadeAlunosMatriculados.FormCategoriaPorIdadeV2.resources
