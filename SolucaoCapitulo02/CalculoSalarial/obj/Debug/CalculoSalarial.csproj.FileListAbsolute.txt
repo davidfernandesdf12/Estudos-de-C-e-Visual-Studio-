@@ -1,0 +1,10 @@
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo02\CalculoSalarial\bin\Debug\CalculoSalarial.exe.config
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo02\CalculoSalarial\bin\Debug\CalculoSalarial.exe
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo02\CalculoSalarial\bin\Debug\CalculoSalarial.pdb
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo02\CalculoSalarial\obj\Debug\CalculoSalarial.csprojAssemblyReference.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo02\CalculoSalarial\obj\Debug\CalculoSalarial.Form1.resources
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo02\CalculoSalarial\obj\Debug\CalculoSalarial.Properties.Resources.resources
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo02\CalculoSalarial\obj\Debug\CalculoSalarial.csproj.GenerateResource.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo02\CalculoSalarial\obj\Debug\CalculoSalarial.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo02\CalculoSalarial\obj\Debug\CalculoSalarial.exe
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo02\CalculoSalarial\obj\Debug\CalculoSalarial.pdb

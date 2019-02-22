@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.groupTurno = new System.Windows.Forms.GroupBox();
+            this.rdoMatutino = new System.Windows.Forms.RadioButton();
+            this.rdoVespetino = new System.Windows.Forms.RadioButton();
+            this.rdoNoturno = new System.Windows.Forms.RadioButton();
             this.txtSalarioMin = new System.Windows.Forms.TextBox();
             this.txtHorasTrab = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -36,11 +39,8 @@
             this.groupCategoria = new System.Windows.Forms.GroupBox();
             this.rdoCalouro = new System.Windows.Forms.RadioButton();
             this.rdoVeterano = new System.Windows.Forms.RadioButton();
-            this.rdoMatutino = new System.Windows.Forms.RadioButton();
-            this.rdoVespetino = new System.Windows.Forms.RadioButton();
-            this.rdoNoturno = new System.Windows.Forms.RadioButton();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.lblCategoria = new System.Windows.Forms.Label();
+            this.lbxResumo = new System.Windows.Forms.ListBox();
+            this.lblSituacao = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupTurno.SuspendLayout();
             this.groupCategoria.SuspendLayout();
@@ -57,6 +57,39 @@
             this.groupTurno.TabIndex = 0;
             this.groupTurno.TabStop = false;
             this.groupTurno.Text = "Turno";
+            // 
+            // rdoMatutino
+            // 
+            this.rdoMatutino.AutoSize = true;
+            this.rdoMatutino.Location = new System.Drawing.Point(13, 17);
+            this.rdoMatutino.Name = "rdoMatutino";
+            this.rdoMatutino.Size = new System.Drawing.Size(66, 17);
+            this.rdoMatutino.TabIndex = 8;
+            this.rdoMatutino.TabStop = true;
+            this.rdoMatutino.Text = "Matutino";
+            this.rdoMatutino.UseVisualStyleBackColor = true;
+            // 
+            // rdoVespetino
+            // 
+            this.rdoVespetino.AutoSize = true;
+            this.rdoVespetino.Location = new System.Drawing.Point(13, 40);
+            this.rdoVespetino.Name = "rdoVespetino";
+            this.rdoVespetino.Size = new System.Drawing.Size(75, 17);
+            this.rdoVespetino.TabIndex = 9;
+            this.rdoVespetino.TabStop = true;
+            this.rdoVespetino.Text = "Vespertino";
+            this.rdoVespetino.UseVisualStyleBackColor = true;
+            // 
+            // rdoNoturno
+            // 
+            this.rdoNoturno.AutoSize = true;
+            this.rdoNoturno.Location = new System.Drawing.Point(13, 63);
+            this.rdoNoturno.Name = "rdoNoturno";
+            this.rdoNoturno.Size = new System.Drawing.Size(63, 17);
+            this.rdoNoturno.TabIndex = 10;
+            this.rdoNoturno.TabStop = true;
+            this.rdoNoturno.Text = "Noturno";
+            this.rdoNoturno.UseVisualStyleBackColor = true;
             // 
             // txtSalarioMin
             // 
@@ -75,7 +108,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 41);
+            this.label2.Location = new System.Drawing.Point(3, 41);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 13);
             this.label2.TabIndex = 4;
@@ -84,7 +117,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 14);
+            this.label1.Location = new System.Drawing.Point(23, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 13);
             this.label1.TabIndex = 3;
@@ -123,59 +156,26 @@
             this.rdoVeterano.Text = "Veterano";
             this.rdoVeterano.UseVisualStyleBackColor = true;
             // 
-            // rdoMatutino
+            // lbxResumo
             // 
-            this.rdoMatutino.AutoSize = true;
-            this.rdoMatutino.Location = new System.Drawing.Point(13, 17);
-            this.rdoMatutino.Name = "rdoMatutino";
-            this.rdoMatutino.Size = new System.Drawing.Size(66, 17);
-            this.rdoMatutino.TabIndex = 8;
-            this.rdoMatutino.TabStop = true;
-            this.rdoMatutino.Text = "Matutino";
-            this.rdoMatutino.UseVisualStyleBackColor = true;
+            this.lbxResumo.FormattingEnabled = true;
+            this.lbxResumo.Location = new System.Drawing.Point(12, 106);
+            this.lbxResumo.Name = "lbxResumo";
+            this.lbxResumo.Size = new System.Drawing.Size(306, 82);
+            this.lbxResumo.TabIndex = 6;
             // 
-            // rdoVespetino
+            // lblSituacao
             // 
-            this.rdoVespetino.AutoSize = true;
-            this.rdoVespetino.Location = new System.Drawing.Point(13, 40);
-            this.rdoVespetino.Name = "rdoVespetino";
-            this.rdoVespetino.Size = new System.Drawing.Size(75, 17);
-            this.rdoVespetino.TabIndex = 9;
-            this.rdoVespetino.TabStop = true;
-            this.rdoVespetino.Text = "Vespertino";
-            this.rdoVespetino.UseVisualStyleBackColor = true;
-            // 
-            // rdoNoturno
-            // 
-            this.rdoNoturno.AutoSize = true;
-            this.rdoNoturno.Location = new System.Drawing.Point(13, 63);
-            this.rdoNoturno.Name = "rdoNoturno";
-            this.rdoNoturno.Size = new System.Drawing.Size(63, 17);
-            this.rdoNoturno.TabIndex = 10;
-            this.rdoNoturno.TabStop = true;
-            this.rdoNoturno.Text = "Noturno";
-            this.rdoNoturno.UseVisualStyleBackColor = true;
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 106);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(306, 82);
-            this.listBox1.TabIndex = 6;
-            // 
-            // lblCategoria
-            // 
-            this.lblCategoria.BackColor = System.Drawing.Color.Yellow;
-            this.lblCategoria.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCategoria.ForeColor = System.Drawing.Color.Blue;
-            this.lblCategoria.Location = new System.Drawing.Point(12, 195);
-            this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Size = new System.Drawing.Size(200, 20);
-            this.lblCategoria.TabIndex = 17;
-            this.lblCategoria.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSituacao.BackColor = System.Drawing.Color.Yellow;
+            this.lblSituacao.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblSituacao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblSituacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSituacao.ForeColor = System.Drawing.Color.Blue;
+            this.lblSituacao.Location = new System.Drawing.Point(12, 195);
+            this.lblSituacao.Name = "lblSituacao";
+            this.lblSituacao.Size = new System.Drawing.Size(200, 20);
+            this.lblSituacao.TabIndex = 17;
+            this.lblSituacao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
             // 
@@ -193,8 +193,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(327, 226);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.lblCategoria);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lblSituacao);
+            this.Controls.Add(this.lbxResumo);
             this.Controls.Add(this.groupCategoria);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -225,8 +225,8 @@
         private System.Windows.Forms.GroupBox groupCategoria;
         private System.Windows.Forms.RadioButton rdoCalouro;
         private System.Windows.Forms.RadioButton rdoVeterano;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Label lblCategoria;
+        private System.Windows.Forms.ListBox lbxResumo;
+        private System.Windows.Forms.Label lblSituacao;
         private System.Windows.Forms.Button button1;
     }
 }
