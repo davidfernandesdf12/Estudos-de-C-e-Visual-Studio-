@@ -42,18 +42,17 @@ namespace PesoIdeal
 
             var sexo = Convert.ToInt32(rbnSelecionado.Tag);
 
-            var altura = Convert.ToInt32(txtAltura.ToString());
+            double altura = Convert.ToDouble(txtAltura.Text);
+            double calPesoIdeal;
             if (sexo == 0)
-            {
-                var calPesoIdeal = (altura * 72.7) - 58;
-                lblvaluepesoideal.Text = calPesoIdeal.ToString();
-            }
+                calPesoIdeal = (altura * 72.7) - 58;
+            
             else
-            {
-                var calPesoIdeal = (Convert.ToInt32(txtAltura.Text) * 62.1) - 44.7;
-                lblvaluepesoideal.Text = calPesoIdeal.ToString();
+                calPesoIdeal = (altura * 62.1) - 44.7;
 
-            }
+
+            lblvaluepesoideal.Text = calPesoIdeal.ToString("N");
+
 
         }
 
@@ -71,7 +70,7 @@ namespace PesoIdeal
 
         private void rbnFeminino_CheckedChanged(object sender, EventArgs e)
         {
-            if (rbnMasculino.Checked == true)
+            if (rbnFeminino.Checked == true)
             {
                 rbnSelecionado.Tag = 1;
             }
