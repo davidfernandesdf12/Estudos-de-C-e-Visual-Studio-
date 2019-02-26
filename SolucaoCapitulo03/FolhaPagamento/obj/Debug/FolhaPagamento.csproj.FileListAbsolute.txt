@@ -8,3 +8,13 @@ C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-S
 C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.exe
 C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.pdb
 C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.FolhaPagamento.resources
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\bin\Debug\FolhaPagamento.exe.config
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\bin\Debug\FolhaPagamento.exe
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\bin\Debug\FolhaPagamento.pdb
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.csprojAssemblyReference.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.FolhaPagamento.resources
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.Properties.Resources.resources
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.csproj.GenerateResource.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.exe
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.pdb
