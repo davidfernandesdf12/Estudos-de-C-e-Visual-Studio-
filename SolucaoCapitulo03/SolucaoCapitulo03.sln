@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistoConsumo", "RegistoConsumo\RegistoConsumo.csproj", "{AABA7A44-EB7D-479E-A7CE-5D6EE4392AFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumoEnergiaCondominio", "ConsumoEnergiaCondominio\ConsumoEnergiaCondominio.csproj", "{CB955FEE-4043-41EF-8D7A-B27FC9AF7380}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AABA7A44-EB7D-479E-A7CE-5D6EE4392AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AABA7A44-EB7D-479E-A7CE-5D6EE4392AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AABA7A44-EB7D-479E-A7CE-5D6EE4392AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AABA7A44-EB7D-479E-A7CE-5D6EE4392AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB955FEE-4043-41EF-8D7A-B27FC9AF7380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB955FEE-4043-41EF-8D7A-B27FC9AF7380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB955FEE-4043-41EF-8D7A-B27FC9AF7380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB955FEE-4043-41EF-8D7A-B27FC9AF7380}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

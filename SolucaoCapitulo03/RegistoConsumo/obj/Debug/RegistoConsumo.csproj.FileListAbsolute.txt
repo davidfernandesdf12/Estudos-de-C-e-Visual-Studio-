@@ -8,3 +8,13 @@ C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCa
 C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\RegistoConsumo\obj\Debug\RegistoConsumo.csproj.CoreCompileInputs.cache
 C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\RegistoConsumo\obj\Debug\RegistoConsumo.exe
 C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\RegistoConsumo\obj\Debug\RegistoConsumo.pdb
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\RegistoConsumo\bin\Debug\RegistoConsumo.exe.config
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\RegistoConsumo\bin\Debug\RegistoConsumo.exe
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\RegistoConsumo\bin\Debug\RegistoConsumo.pdb
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\RegistoConsumo\obj\Debug\RegistoConsumo.csprojAssemblyReference.cache
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\RegistoConsumo\obj\Debug\RegistoConsumo.Leitura.resources
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\RegistoConsumo\obj\Debug\RegistoConsumo.Properties.Resources.resources
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\RegistoConsumo\obj\Debug\RegistoConsumo.csproj.GenerateResource.cache
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\RegistoConsumo\obj\Debug\RegistoConsumo.csproj.CoreCompileInputs.cache
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\RegistoConsumo\obj\Debug\RegistoConsumo.exe
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\RegistoConsumo\obj\Debug\RegistoConsumo.pdb
