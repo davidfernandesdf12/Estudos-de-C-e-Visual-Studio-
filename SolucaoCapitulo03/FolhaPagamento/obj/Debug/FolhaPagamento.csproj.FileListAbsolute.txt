@@ -1,0 +1,10 @@
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\bin\Debug\FolhaPagamento.exe.config
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\bin\Debug\FolhaPagamento.exe
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\bin\Debug\FolhaPagamento.pdb
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.csprojAssemblyReference.cache
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.Properties.Resources.resources
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.csproj.GenerateResource.cache
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.csproj.CoreCompileInputs.cache
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.exe
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.pdb
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\FolhaPagamento\obj\Debug\FolhaPagamento.FolhaPagamento.resources

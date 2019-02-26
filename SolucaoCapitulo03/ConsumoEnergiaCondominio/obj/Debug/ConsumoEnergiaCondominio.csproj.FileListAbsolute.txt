@@ -8,3 +8,13 @@ C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\ConsumoEnergiaCondominio\obj\Debug\ConsumoEnergiaCondominio.csproj.CoreCompileInputs.cache
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\ConsumoEnergiaCondominio\obj\Debug\ConsumoEnergiaCondominio.exe
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\ConsumoEnergiaCondominio\obj\Debug\ConsumoEnergiaCondominio.pdb
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\ConsumoEnergiaCondominio\bin\Debug\ConsumoEnergiaCondominio.exe.config
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\ConsumoEnergiaCondominio\bin\Debug\ConsumoEnergiaCondominio.exe
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\ConsumoEnergiaCondominio\bin\Debug\ConsumoEnergiaCondominio.pdb
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\ConsumoEnergiaCondominio\obj\Debug\ConsumoEnergiaCondominio.csprojAssemblyReference.cache
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\ConsumoEnergiaCondominio\obj\Debug\ConsumoEnergiaCondominio.FormConsumo.resources
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\ConsumoEnergiaCondominio\obj\Debug\ConsumoEnergiaCondominio.Properties.Resources.resources
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\ConsumoEnergiaCondominio\obj\Debug\ConsumoEnergiaCondominio.csproj.GenerateResource.cache
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\ConsumoEnergiaCondominio\obj\Debug\ConsumoEnergiaCondominio.csproj.CoreCompileInputs.cache
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\ConsumoEnergiaCondominio\obj\Debug\ConsumoEnergiaCondominio.exe
+C:\Users\tec.davidsoares\Documents\David\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo03\ConsumoEnergiaCondominio\obj\Debug\ConsumoEnergiaCondominio.pdb
