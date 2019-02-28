@@ -14,11 +14,20 @@ namespace PersistenceProject
         private IList<NotaEntrada> notaEntradas = new List<NotaEntrada>();
 
         #region Métodos - Fornecedor 
-        //Método responsavel por inserir um novo fornecedor
-        public Fornecedor InserirFornecedor(Fornecedor fornecedor)
+       
+        //método para inserir ou atualizar fornecedor(verifica pelo o id)
+        public Fornecedor SaveOrUpdateFornecedor(Fornecedor fornecedor)
         {
-            this.fornecedores.Add(fornecedor);
-            return fornecedor;
+            if (fornecedor.Id.Equals(null))
+            {
+                this.fornecedores.Add(fornecedor);
+                return fornecedor;
+            }
+            else
+            {
+                this.fornecedores[this.fornecedores.IndexOf(fornecedor)] = fornecedor;
+                return fornecedor;
+            }
         }
         //Método responsavel por remover um fornecedor
         public void RemoveFornecedor(Fornecedor fornecedor)
@@ -30,20 +39,23 @@ namespace PersistenceProject
         {
             return this.fornecedores;
         }
-        //Método responsavel de atualizar o fornecedor
-        public Fornecedor UpdateFornecedor(Fornecedor fornecedor)
-        {
-            this.fornecedores[this.fornecedores.IndexOf(fornecedor)] = fornecedor;
-            return fornecedor;
-        }
+        
         #endregion
 
         #region Métodos - Produtos
-        //Método responsavel por inserir um novo produto
-        public Produto InserirProduto(Produto produto)
+        //Método responsavel por inserir ou atualizar um produto(verifica pelo o id)
+        public Produto SaveOrUpdateProduto(Produto produto)
         {
-            this.produtos.Add(produto);
-            return produto;
+            if (produto.Id.Equals(null))
+            {
+                this.produtos.Add(produto);
+                return produto;
+            }
+            else
+            {
+                this.produtos[this.produtos.IndexOf(produto)] = produto;
+                return produto;
+            }
         }
         //Método responsavel por remover um produto
         public void RemoveProduto(Produto produto)
@@ -55,12 +67,7 @@ namespace PersistenceProject
         {
             return this.produtos;
         }
-        //Método responsavel de atualizar o produto
-        public Produto UpdateProduto(Produto produto)
-        {
-            this.produtos[this.produtos.IndexOf(produto)] = produto;
-            return produto;
-        }
+
         #endregion
 
 

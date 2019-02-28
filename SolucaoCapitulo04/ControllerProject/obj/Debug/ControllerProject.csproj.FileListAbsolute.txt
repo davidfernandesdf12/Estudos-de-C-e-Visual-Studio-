@@ -1,0 +1,11 @@
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ControllerProject\bin\Debug\ControllerProject.dll
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ControllerProject\bin\Debug\ControllerProject.pdb
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ControllerProject\bin\Debug\PersistenceProject.dll
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ControllerProject\bin\Debug\ModelProject.dll
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ControllerProject\bin\Debug\PersistenceProject.pdb
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ControllerProject\bin\Debug\ModelProject.pdb
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ControllerProject\obj\Debug\ControllerProject.csprojAssemblyReference.cache
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ControllerProject\obj\Debug\ControllerProject.csproj.CoreCompileInputs.cache
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ControllerProject\obj\Debug\ControllerProject.csproj.CopyComplete
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ControllerProject\obj\Debug\ControllerProject.dll
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ControllerProject\obj\Debug\ControllerProject.pdb
