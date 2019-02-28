@@ -7,3 +7,12 @@ C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\PersistenceProject\obj\Debug\PersistenceProject.csproj.CopyComplete
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\PersistenceProject\obj\Debug\PersistenceProject.dll
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\PersistenceProject\obj\Debug\PersistenceProject.pdb
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\PersistenceProject\bin\Debug\PersistenceProject.dll
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\PersistenceProject\bin\Debug\PersistenceProject.pdb
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\PersistenceProject\bin\Debug\ModelProject.dll
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\PersistenceProject\bin\Debug\ModelProject.pdb
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\PersistenceProject\obj\Debug\PersistenceProject.csprojAssemblyReference.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\PersistenceProject\obj\Debug\PersistenceProject.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\PersistenceProject\obj\Debug\PersistenceProject.csproj.CopyComplete
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\PersistenceProject\obj\Debug\PersistenceProject.dll
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\PersistenceProject\obj\Debug\PersistenceProject.pdb

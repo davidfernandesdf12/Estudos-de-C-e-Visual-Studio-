@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControllerNotaEntrada.cs" />
+    <Compile Include="ControllerProduto.cs" />
     <Compile Include="FornecedorController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

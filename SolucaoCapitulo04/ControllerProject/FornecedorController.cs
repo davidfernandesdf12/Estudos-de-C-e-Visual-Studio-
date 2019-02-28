@@ -12,7 +12,7 @@ namespace ControllerProject
     {
         private Repository repository = new Repository();
 
-        public Fornecedor Insert(Fornecedor fornecedor)
+        public Fornecedor InsertOrUpdate(Fornecedor fornecedor)
         {
             return this.repository.SaveOrUpdateFornecedor(fornecedor);
         }
@@ -26,5 +26,6 @@ namespace ControllerProject
         {
             return this.repository.GetAllFornecedores();
         }
+        
     }
 }

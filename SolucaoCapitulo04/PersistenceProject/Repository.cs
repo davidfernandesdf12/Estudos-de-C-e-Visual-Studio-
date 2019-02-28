@@ -20,6 +20,7 @@ namespace PersistenceProject
         {
             if (fornecedor.Id.Equals(null))
             {
+                fornecedor.Id = Guid.NewGuid();
                 this.fornecedores.Add(fornecedor);
                 return fornecedor;
             }
@@ -70,6 +71,33 @@ namespace PersistenceProject
 
         #endregion
 
+        #region Métodos - NotaEntrada
+        //Método responsavel por inserir ou atualizar nota de entrada(verifica pelo o id)
+        public NotaEntrada SaveOrUpdateNotaEntrada(NotaEntrada notaEntrada)
+        {
+            if (notaEntrada.Id.Equals(null)) { 
+            notaEntradas.Add(notaEntrada);
+            return notaEntrada;
+            }
+            else
+            {
+                this.notaEntradas[this.notaEntradas.IndexOf(notaEntrada)] = notaEntrada;
+                return notaEntrada;
+            }
+        }
+
+        //Método responsavel por exluir uma nota de entrada
+        public void RemoverNotaEntrada(NotaEntrada notaEntrada)
+        {
+            this.notaEntradas.Remove(notaEntrada);
+        }
+        
+        //Método responsavel por trazer todas a notas de entrada
+        public IList<NotaEntrada> GetAllNotaEntradas()
+        {
+            return this.notaEntradas;
+        }
+        #endregion
 
 
     }

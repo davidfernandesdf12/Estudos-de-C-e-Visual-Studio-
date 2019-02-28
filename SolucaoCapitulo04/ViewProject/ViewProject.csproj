@@ -91,5 +91,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ControllerProject\ControllerProject.csproj">
+      <Project>{e11e1931-8635-47f4-90ff-6f60c42b76c1}</Project>
+      <Name>ControllerProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModelProject\ModelProject.csproj">
+      <Project>{fc174d30-ecf7-45d1-8067-e69ec7f3cf05}</Project>
+      <Name>ModelProject</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
