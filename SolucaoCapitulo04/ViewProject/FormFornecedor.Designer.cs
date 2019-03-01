@@ -47,55 +47,52 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 7);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(16, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(19, 13);
+            this.label1.Size = new System.Drawing.Size(23, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Id:";
             // 
             // txtId
             // 
             this.txtId.Enabled = false;
-            this.txtId.Location = new System.Drawing.Point(46, 4);
-            this.txtId.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtId.Location = new System.Drawing.Point(61, 5);
+            this.txtId.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(76, 20);
+            this.txtId.Size = new System.Drawing.Size(100, 22);
             this.txtId.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 27);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(12, 33);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.Size = new System.Drawing.Size(49, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "Nome:";
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(46, 24);
-            this.txtNome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNome.Location = new System.Drawing.Point(61, 30);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(216, 20);
+            this.txtNome.Size = new System.Drawing.Size(287, 22);
             this.txtNome.TabIndex = 3;
             // 
             // txtCnpj
             // 
-            this.txtCnpj.Location = new System.Drawing.Point(46, 46);
-            this.txtCnpj.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCnpj.Location = new System.Drawing.Point(61, 57);
+            this.txtCnpj.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCnpj.Name = "txtCnpj";
-            this.txtCnpj.Size = new System.Drawing.Size(216, 20);
+            this.txtCnpj.Size = new System.Drawing.Size(287, 22);
             this.txtCnpj.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 49);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(12, 60);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 13);
+            this.label3.Size = new System.Drawing.Size(47, 17);
             this.label3.TabIndex = 4;
             this.label3.Text = "CNPJ:";
             // 
@@ -104,27 +101,27 @@
             this.tableLayoutPanel1.ColumnCount = 4;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 66F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 88F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
             this.tableLayoutPanel1.Controls.Add(this.btnNovo, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.BtnGravar, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnCancalar, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnRemover, 3, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(11, 71);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(15, 87);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(250, 27);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(333, 33);
             this.tableLayoutPanel1.TabIndex = 6;
             // 
             // btnNovo
             // 
-            this.btnNovo.Location = new System.Drawing.Point(2, 2);
-            this.btnNovo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNovo.Location = new System.Drawing.Point(3, 2);
+            this.btnNovo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnNovo.Name = "btnNovo";
-            this.btnNovo.Size = new System.Drawing.Size(56, 23);
+            this.btnNovo.Size = new System.Drawing.Size(75, 28);
             this.btnNovo.TabIndex = 0;
             this.btnNovo.Text = "Novo";
             this.btnNovo.UseVisualStyleBackColor = true;
@@ -132,10 +129,10 @@
             // 
             // BtnGravar
             // 
-            this.BtnGravar.Location = new System.Drawing.Point(64, 2);
-            this.BtnGravar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BtnGravar.Location = new System.Drawing.Point(85, 2);
+            this.BtnGravar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnGravar.Name = "BtnGravar";
-            this.BtnGravar.Size = new System.Drawing.Size(56, 23);
+            this.BtnGravar.Size = new System.Drawing.Size(75, 28);
             this.BtnGravar.TabIndex = 1;
             this.BtnGravar.Text = "Gravar";
             this.BtnGravar.UseVisualStyleBackColor = true;
@@ -143,40 +140,41 @@
             // 
             // btnCancalar
             // 
-            this.btnCancalar.Location = new System.Drawing.Point(126, 2);
-            this.btnCancalar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancalar.Location = new System.Drawing.Point(167, 2);
+            this.btnCancalar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancalar.Name = "btnCancalar";
-            this.btnCancalar.Size = new System.Drawing.Size(56, 23);
+            this.btnCancalar.Size = new System.Drawing.Size(75, 28);
             this.btnCancalar.TabIndex = 2;
             this.btnCancalar.Text = "Cancelar";
             this.btnCancalar.UseVisualStyleBackColor = true;
             // 
             // btnRemover
             // 
-            this.btnRemover.Location = new System.Drawing.Point(192, 2);
-            this.btnRemover.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRemover.Location = new System.Drawing.Point(255, 2);
+            this.btnRemover.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRemover.Name = "btnRemover";
-            this.btnRemover.Size = new System.Drawing.Size(56, 23);
+            this.btnRemover.Size = new System.Drawing.Size(75, 28);
             this.btnRemover.TabIndex = 3;
             this.btnRemover.Text = "Remover";
             this.btnRemover.UseVisualStyleBackColor = true;
+            this.btnRemover.Click += new System.EventHandler(this.btnRemover_Click);
             // 
             // dgvFornecedores
             // 
             this.dgvFornecedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvFornecedores.Location = new System.Drawing.Point(9, 102);
-            this.dgvFornecedores.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvFornecedores.Location = new System.Drawing.Point(12, 126);
+            this.dgvFornecedores.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvFornecedores.Name = "dgvFornecedores";
             this.dgvFornecedores.RowTemplate.Height = 24;
-            this.dgvFornecedores.Size = new System.Drawing.Size(253, 122);
+            this.dgvFornecedores.Size = new System.Drawing.Size(337, 150);
             this.dgvFornecedores.TabIndex = 7;
             this.dgvFornecedores.SelectionChanged += new System.EventHandler(this.dgvFornecedores_SelectionChanged);
             // 
             // FormFornecedor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(271, 232);
+            this.ClientSize = new System.Drawing.Size(361, 286);
             this.Controls.Add(this.dgvFornecedores);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.txtCnpj);
@@ -185,7 +183,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormFornecedor";
             this.Text = "Manutenção em dados de Fornecedores";
             this.tableLayoutPanel1.ResumeLayout(false);

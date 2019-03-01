@@ -18,7 +18,7 @@ namespace PersistenceProject
         //método para inserir ou atualizar fornecedor(verifica pelo o id)
         public Fornecedor SaveOrUpdateFornecedor(Fornecedor fornecedor)
         {
-            if (fornecedor.Id.Equals(null))
+            if (fornecedor.Id == Guid.Empty)
             {
                 fornecedor.Id = Guid.NewGuid();
                 this.fornecedores.Add(fornecedor);
