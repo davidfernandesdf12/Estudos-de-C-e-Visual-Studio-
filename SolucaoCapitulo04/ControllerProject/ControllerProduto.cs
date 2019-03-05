@@ -12,7 +12,7 @@ namespace ControllerProject
     {
         private Repository repository = new Repository();
 
-        public Produto Insert(Produto produto)
+        public Produto InsertOrUpdate(Produto produto)
         {
             return this.repository.SaveOrUpdateProduto(produto);
         }
@@ -27,9 +27,5 @@ namespace ControllerProject
             return this.repository.GetAllProdutos();
         }
 
-        public Produto Update(Produto produto)
-        {
-            return this.repository.SaveOrUpdateProduto(produto);
-        }
     }
 }

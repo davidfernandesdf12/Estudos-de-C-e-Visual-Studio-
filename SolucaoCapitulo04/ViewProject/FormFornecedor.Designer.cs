@@ -102,7 +102,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 88F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81F));
             this.tableLayoutPanel1.Controls.Add(this.btnNovo, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.BtnGravar, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnCancalar, 2, 0);
@@ -147,6 +147,7 @@
             this.btnCancalar.TabIndex = 2;
             this.btnCancalar.Text = "Cancelar";
             this.btnCancalar.UseVisualStyleBackColor = true;
+            this.btnCancalar.Click += new System.EventHandler(this.btnCancalar_Click);
             // 
             // btnRemover
             // 

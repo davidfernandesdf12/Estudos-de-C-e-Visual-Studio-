@@ -47,8 +47,9 @@ namespace PersistenceProject
         //Método responsavel por inserir ou atualizar um produto(verifica pelo o id)
         public Produto SaveOrUpdateProduto(Produto produto)
         {
-            if (produto.Id.Equals(null))
+            if (produto.Id == Guid.Empty)
             {
+                produto.Id = Guid.NewGuid();
                 this.produtos.Add(produto);
                 return produto;
             }

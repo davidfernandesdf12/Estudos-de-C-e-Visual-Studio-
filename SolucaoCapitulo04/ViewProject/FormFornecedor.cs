@@ -17,9 +17,23 @@ namespace ViewProject
     {
         private FornecedorController controller = new FornecedorController();
 
-        public FormFornecedor()
+        public FormFornecedor(FornecedorController controller)
         {
             InitializeComponent();
+            this.controller = controller;
+            if (controller.GetAll().Count > 0)
+            {
+                GetAllFornecedores();
+            }
+            
+        }
+
+        private void GetAllFornecedores()
+        {
+                dgvFornecedores.DataSource = null;
+                dgvFornecedores.DataSource = this.controller.GetAll();
+                ClearControls();   
+                
         }
 
         private void BtnGravar_Click(object sender, EventArgs e)
@@ -31,9 +45,7 @@ namespace ViewProject
                     CNPJ = txtCnpj.Text
                 });
             txtId.Text = fornecedor.Id.ToString();
-            dgvFornecedores.DataSource = null;
-            dgvFornecedores.DataSource = this.controller.GetAll();
-            ClearControls();
+            GetAllFornecedores();
         }
 
         private void btnNovo_Click(object sender, EventArgs e)
@@ -54,16 +66,17 @@ namespace ViewProject
 
         private void dgvFornecedores_SelectionChanged(object sender, EventArgs e)
         {
-            if(dgvFornecedores.Rows.Count < 0)
-            { 
-            txtId.Text = dgvFornecedores.CurrentRow.Cells[0].Value.ToString();
-            txtNome.Text = dgvFornecedores.CurrentRow.Cells[1].Value.ToString();
-            txtCnpj.Text = dgvFornecedores.CurrentRow.Cells[2].Value.ToString();
+            if(dgvFornecedores.SelectedRows.Count > 0) { 
+                txtId.Text = dgvFornecedores.CurrentRow.Cells[0].Value.ToString();
+                txtNome.Text = dgvFornecedores.CurrentRow.Cells[1].Value.ToString();
+                txtCnpj.Text = dgvFornecedores.CurrentRow.Cells[2].Value.ToString();
             }
+
         }
 
         private void btnRemover_Click(object sender, EventArgs e)
-        {
+        {   
+            
             if (txtId.Text.Equals(string.Empty))
             {
                 MessageBox.Show("Selecione o FORNECEDOR a ser removido no GRID", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -78,11 +91,15 @@ namespace ViewProject
                         Nome = txtNome.Text,
                         CNPJ = txtCnpj.Text
                     });
-                    dgvFornecedores.DataSource = null;
-                    dgvFornecedores.DataSource = this.controller.GetAll();
-                    ClearControls();
+                    GetAllFornecedores();
+
             }
             
+        }
+
+        private void btnCancalar_Click(object sender, EventArgs e)
+        {
+            ClearControls();
         }
     }
 }

@@ -13,7 +13,7 @@ namespace ModelProject
         public string CNPJ { get; set; }
 
 
-        #region Método Equals e GetHashCode
+        #region Métodos Equals e GetHashCode
 
         protected bool Equals(Fornecedor other)
         {

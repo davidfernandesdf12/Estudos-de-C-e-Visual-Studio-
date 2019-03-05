@@ -13,5 +13,31 @@ namespace ModelProject
         public double PrecoDeCusto { get; set; }
         public double ProcoDevenda { get; set; }
         public double Estoque { get; set; }
+
+        #region Métodos Equals e GetHashCode
+
+        protected bool Equals(Produto other)
+        {
+            return Id.Equals(other.Id);
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(null, obj))
+                return false;
+            if (ReferenceEquals(true, obj))
+                return true;
+            if (obj.GetType() != typeof(Produto))
+                return false;
+
+            return Equals((Produto)obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
+        #endregion
     }
 }
