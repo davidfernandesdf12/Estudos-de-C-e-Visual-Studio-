@@ -76,7 +76,7 @@ namespace PersistenceProject
         //Método responsavel por inserir ou atualizar nota de entrada(verifica pelo o id)
         public NotaEntrada SaveOrUpdateNotaEntrada(NotaEntrada notaEntrada)
         {
-            if (notaEntrada.Id.Equals(null)) { 
+            if (notaEntrada.Id.Equals(Guid.Empty)) { 
             notaEntradas.Add(notaEntrada);
             return notaEntrada;
             }

@@ -10,7 +10,7 @@ namespace ModelProject
     {
         public Guid Id { get; set; }
         public string Numero { get; set; }
-        public Fornecedor fornecedor { get; set; }
+        public Fornecedor fornecedorNota { get; set; }
         public DateTime DataEmissao { get; set; }
         public DateTime DataEntrada { get; set; }
         public IList<NotaEntradaProduto> Produtos { get; set; }

@@ -12,9 +12,12 @@ namespace ControllerProject
     {
         Repository repository = new Repository();
 
-        public NotaEntrada Insert(NotaEntrada notaEntrada)
+        public NotaEntrada InsertOrUpdate(NotaEntrada notaEntrada)
         {
-            return this.repository.SaveOrUpdateNotaEntrada(notaEntrada);
+            if(notaEntrada.Id.Equals(Guid.Empty))
+                return this.repository.SaveOrUpdateNotaEntrada(notaEntrada);
+            else
+                return this.repository.SaveOrUpdateNotaEntrada(notaEntrada);
         }
 
         public void Remove(NotaEntrada notaEntrada)
@@ -27,9 +30,5 @@ namespace ControllerProject
             return this.repository.GetAllNotaEntradas();
         }
 
-        public NotaEntrada Update(NotaEntrada notaEntrada)
-        {
-            return this.repository.SaveOrUpdateNotaEntrada(notaEntrada);
-        }
     }
 }
