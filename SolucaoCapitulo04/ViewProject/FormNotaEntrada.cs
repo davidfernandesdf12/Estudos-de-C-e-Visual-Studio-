@@ -32,24 +32,25 @@ namespace ViewProject
             InicializaComboBoxs();
         }
 
+        #region Métodos NotaEntrada
         //function de preenchimento dos comboboxs fornecedor e produtos
         private void InicializaComboBoxs()
         {
             cbxFornecedor.Items.Clear();
             cbxProduto.Items.Clear();
 
-            foreach(Fornecedor fornecedor in this.fornecedorController.GetAll())
+            foreach (Fornecedor fornecedor in this.fornecedorController.GetAll())
             {
                 cbxFornecedor.Items.Add(fornecedor);
                 cbxFornecedor.ValueMember = "Id";
                 cbxFornecedor.DisplayMember = "Nome";
             }
 
-            foreach(Produto produto in this.produtoController.GetAll())
+            foreach (Produto produto in this.produtoController.GetAll())
             {
                 cbxProduto.Items.Add(produto);
-                cbxFornecedor.ValueMember = "Id";
-                cbxFornecedor.DisplayMember = "Nome";
+                cbxProduto.ValueMember = "Id";
+                cbxProduto.DisplayMember = "Descricao";
             }
 
         }
@@ -82,10 +83,10 @@ namespace ViewProject
                 fornecedorNota = (Fornecedor)cbxFornecedor.SelectedItem,
                 Numero = txtNumero.Text
             };
-
             notaEntrada = this.controller.InsertOrUpdate(notaEntrada);
             dgvNotasEntrada.DataSource = null;
             dgvNotasEntrada.DataSource = this.controller.GetAll();
+            dgvNotasEntrada.Columns.RemoveAt(2);
             ClearControlsNota();
         }
 
@@ -110,6 +111,83 @@ namespace ViewProject
                 dgvNotasEntrada.DataSource = this.controller.GetAll();
                 ClearControlsNota();
             }
+        }
+
+        private void UpdateProdutosGrid()
+        {
+            dgvProdutos.DataSource = null;
+            if (this.notaAtual.Produtos.Count > 0)
+            {
+                dgvProdutos.DataSource = this.notaAtual.Produtos;
+            }
+        }
+
+        private void dgvNotasEntrada_SelectionChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                this.notaAtual = this.controller.GetNotaEntradaById(new Guid(dgvNotasEntrada.CurrentRow.Cells[0].Value.ToString()));
+                txtIDNota.Text = notaAtual.Id.ToString();
+                txtNumero.Text = notaAtual.Numero.ToString();
+                cbxFornecedor.SelectedItem = notaAtual.fornecedorNota;
+                dtpEmissao.Value = notaAtual.DataEmissao;
+                dtpEntrada.Value = notaAtual.DataEntrada;
+                UpdateProdutosGrid();
+            }
+            catch (Exception ex)
+            {
+                this.notaAtual = new NotaEntrada();
+            }
+        }
+        #endregion
+
+
+        private void ClearControlsProduto()
+        {
+            dgvProdutos.ClearSelection();
+            txtIDProduto.Text = string.Empty;
+            cbxProduto.SelectedIndex = -1;
+            txtCusto.Text = string.Empty;
+            txtQuantidade.Text = string.Empty;
+
+        }
+        private void btnNovoProduto_Click(object sender, EventArgs e)
+        {
+            ClearControlsProduto();
+            if (txtIDNota.Text == string.Empty)
+                MessageBox.Show("Selecione a NOTA, que terá inserção de produtos, no GRID", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else
+                ChangeStatusOfControls(true);
+
+        }
+
+        private void ChangeStatusOfControls(bool newStatus)
+        {
+            cbxProduto.Enabled = newStatus;
+            txtCusto.Enabled = newStatus;
+            txtQuantidade.Enabled = newStatus;
+            btnNovoProduto.Enabled = !newStatus;
+            btnGravarProduto.Enabled = newStatus;
+            btnCancelarProduto.Enabled = newStatus;
+            btnRemoverProduto.Enabled = newStatus;
+        }
+
+
+        private void btnGravarProduto_Click(object sender, EventArgs e)
+        {
+            var produtoNota = new NotaEntradaProduto()
+            {
+                Id = (string.IsNullOrEmpty(txtIDProduto.Text) ? Guid.Empty : new Guid(txtIDProduto.Text)),
+                PrecoCustoCompra = Convert.ToDouble(txtCusto.Text),
+                ProdutoNota = (Produto) cbxProduto.SelectedItem,
+                QuantidadeCompra = Convert.ToDouble(txtQuantidade.Text)
+            };
+
+            this.notaAtual.RegistrarProduto(produtoNota);
+            this.notaAtual = this.controller.InsertOrUpdate(this.notaAtual);
+            ChangeStatusOfControls(false);
+            update
+            ClearControlsProduto();
         }
     }
 }

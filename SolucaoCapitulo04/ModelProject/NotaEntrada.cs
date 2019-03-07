@@ -10,35 +10,37 @@ namespace ModelProject
     {
         public Guid Id { get; set; }
         public string Numero { get; set; }
-        public Fornecedor fornecedorNota { get; set; }
+        public Fornecedor fornecedorNota { get ; set; }
+        public string nomeFornecedor { get { return string.IsNullOrEmpty(fornecedorNota.Nome) ? "" : fornecedorNota.Nome; } }
         public DateTime DataEmissao { get; set; }
         public DateTime DataEntrada { get; set; }
         public IList<NotaEntradaProduto> Produtos { get; set; }
 
-        #region Métodos NotaEntrada
-        
-        //Trazer todos meus produtos na nota de entrada
-        public NotaEntrada()
+
+        #region Métodos Equals e GetHashCode
+
+        protected bool Equals(NotaEntrada other)
         {
-            this.Produtos = new List<NotaEntradaProduto>();
+            return Id.Equals(other.Id);
         }
-        // Inserir produto na nota de entrada
-        public void RegistrarProduto(NotaEntradaProduto produto)
+
+        public override bool Equals(object obj)
         {
-            if (!this.Produtos.Contains(produto))
-            {
-                this.Produtos.Add(produto);
-            }
+            if (ReferenceEquals(null, obj))
+                return false;
+            if (ReferenceEquals(true, obj))
+                return true;
+            if (obj.GetType() != typeof(NotaEntrada))
+                return false;
+
+            return Equals((NotaEntrada)obj);
         }
-        // Remover produto da nota de entrada 
-        public void RemoverProduto(NotaEntradaProduto produto)
+
+        public override int GetHashCode()
         {
-            this.Produtos.Remove(produto);
+            return base.GetHashCode();
         }
-        public void RemoverTodosProdutos()
-        {
-            this.Produtos.Clear();
-        }
+
         #endregion
     }
 

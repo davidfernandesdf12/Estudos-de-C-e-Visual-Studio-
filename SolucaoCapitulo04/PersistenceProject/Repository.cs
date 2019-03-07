@@ -76,9 +76,10 @@ namespace PersistenceProject
         //Método responsavel por inserir ou atualizar nota de entrada(verifica pelo o id)
         public NotaEntrada SaveOrUpdateNotaEntrada(NotaEntrada notaEntrada)
         {
-            if (notaEntrada.Id.Equals(Guid.Empty)) { 
-            notaEntradas.Add(notaEntrada);
-            return notaEntrada;
+            if (notaEntrada.Id.Equals(Guid.Empty)) {
+                notaEntrada.Id = Guid.NewGuid();
+                notaEntradas.Add(notaEntrada);
+                return notaEntrada;
             }
             else
             {
@@ -98,7 +99,15 @@ namespace PersistenceProject
         {
             return this.notaEntradas;
         }
+
+        //Método responsavel por trazer uma nota pelo o Id
+        public NotaEntrada GetNotaEntradaById(Guid Id)
+        {
+            var notaEntrada = this.notaEntradas[this.notaEntradas.IndexOf(new NotaEntrada { Id = Id })];
+            return notaEntrada;
+        }
         #endregion
+
 
 
     }

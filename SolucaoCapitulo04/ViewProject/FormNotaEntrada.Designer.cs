@@ -173,6 +173,7 @@
             this.btnNovoProduto.TabIndex = 0;
             this.btnNovoProduto.Text = "Novo";
             this.btnNovoProduto.UseVisualStyleBackColor = true;
+            this.btnNovoProduto.Click += new System.EventHandler(this.btnNovoProduto_Click);
             // 
             // btnGravarProduto
             // 
@@ -184,6 +185,7 @@
             this.btnGravarProduto.TabIndex = 1;
             this.btnGravarProduto.Text = "Gravar";
             this.btnGravarProduto.UseVisualStyleBackColor = true;
+            this.btnGravarProduto.Click += new System.EventHandler(this.btnGravarProduto_Click);
             // 
             // btnCancelarProduto
             // 
@@ -369,6 +371,7 @@
             this.dgvNotasEntrada.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvNotasEntrada.Size = new System.Drawing.Size(381, 226);
             this.dgvNotasEntrada.TabIndex = 3;
+            this.dgvNotasEntrada.SelectionChanged += new System.EventHandler(this.dgvNotasEntrada_SelectionChanged);
             // 
             // txtIDNota
             // 

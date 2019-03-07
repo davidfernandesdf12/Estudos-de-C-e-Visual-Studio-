@@ -11,6 +11,7 @@ namespace ControllerProject
     public class ControllerNotaEntrada
     {
         Repository repository = new Repository();
+        Produto produtos = new Produto();
 
         public NotaEntrada InsertOrUpdate(NotaEntrada notaEntrada)
         {
@@ -29,6 +30,13 @@ namespace ControllerProject
         {
             return this.repository.GetAllNotaEntradas();
         }
+
+        public NotaEntrada GetNotaEntradaById(Guid Id)
+        {
+            return this.repository.GetNotaEntradaById(Id);
+        }
+
+       
 
     }
 }
