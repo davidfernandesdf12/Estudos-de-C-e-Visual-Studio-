@@ -11,14 +11,10 @@ namespace ControllerProject
     public class ControllerNotaEntrada
     {
         Repository repository = new Repository();
-        Produto produtos = new Produto();
 
         public NotaEntrada InsertOrUpdate(NotaEntrada notaEntrada)
         {
-            if(notaEntrada.Id.Equals(Guid.Empty))
-                return this.repository.SaveOrUpdateNotaEntrada(notaEntrada);
-            else
-                return this.repository.SaveOrUpdateNotaEntrada(notaEntrada);
+            return this.repository.SaveOrUpdateNotaEntrada(notaEntrada);
         }
 
         public void Remove(NotaEntrada notaEntrada)
@@ -37,6 +33,7 @@ namespace ControllerProject
         }
 
        
-
     }
+
+
 }

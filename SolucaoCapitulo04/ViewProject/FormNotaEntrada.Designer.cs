@@ -197,6 +197,7 @@
             this.btnCancelarProduto.TabIndex = 2;
             this.btnCancelarProduto.Text = "Cancelar";
             this.btnCancelarProduto.UseVisualStyleBackColor = true;
+            this.btnCancelarProduto.Click += new System.EventHandler(this.btnCancelarProduto_Click);
             // 
             // btnRemoverProduto
             // 
@@ -208,6 +209,7 @@
             this.btnRemoverProduto.TabIndex = 3;
             this.btnRemoverProduto.Text = "Remover";
             this.btnRemoverProduto.UseVisualStyleBackColor = true;
+            this.btnRemoverProduto.Click += new System.EventHandler(this.btnRemoverProduto_Click);
             // 
             // cbxProduto
             // 

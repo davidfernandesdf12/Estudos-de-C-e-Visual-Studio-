@@ -16,7 +16,6 @@ namespace ModelProject
         public DateTime DataEntrada { get; set; }
         public IList<NotaEntradaProduto> Produtos { get; set; }
 
-
         #region Métodos Equals e GetHashCode
 
         protected bool Equals(NotaEntrada other)
@@ -42,6 +41,8 @@ namespace ModelProject
         }
 
         #endregion
+
+
     }
 
 }

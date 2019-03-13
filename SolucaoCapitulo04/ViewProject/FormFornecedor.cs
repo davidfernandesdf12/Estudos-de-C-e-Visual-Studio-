@@ -30,9 +30,9 @@ namespace ViewProject
 
         private void GetAllFornecedores()
         {
-                dgvFornecedores.DataSource = null;
-                dgvFornecedores.DataSource = this.controller.GetAll();
-                ClearControls();   
+            dgvFornecedores.DataSource = null;
+            dgvFornecedores.DataSource = this.controller.GetAll();
+            ClearControls();   
                 
         }
 

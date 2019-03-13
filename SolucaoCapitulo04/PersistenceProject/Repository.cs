@@ -106,9 +106,9 @@ namespace PersistenceProject
             var notaEntrada = this.notaEntradas[this.notaEntradas.IndexOf(new NotaEntrada { Id = Id })];
             return notaEntrada;
         }
+
         #endregion
 
-
-
+        
     }
 }
