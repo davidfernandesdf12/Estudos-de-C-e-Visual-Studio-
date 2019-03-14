@@ -194,12 +194,14 @@ namespace ViewProject
                 ProdutoNota = (Produto) cbxProduto.SelectedItem,
                 QuantidadeCompra = Convert.ToDouble(txtQuantidade.Text)
             };
-
-            //this.notaEntradaProduto = this.controller.RegistrarProduto(produtoNota);
+            this.notaAtual = this.controller.GetNotaEntradaById(new Guid(dgvNotasEntrada.CurrentRow.Cells[0].Value.ToString()));
+            this.notaAtual.RegistrarProduto(produtoNota);
             this.notaAtual = this.controller.InsertOrUpdate(this.notaAtual);
             ChangeStatusOfControls(false);
             UpdateProdutosGrid();
+            GetAllNotas();
             ClearControlsProduto();
+            ClearControlsNota();
         }
 
         private void btnCancelarProduto_Click(object sender, EventArgs e)
@@ -210,14 +212,12 @@ namespace ViewProject
 
         private void btnRemoverProduto_Click(object sender, EventArgs e)
         {
-
-            //this.notaAtual.RemoverProduto(new NotaEntradaProduto() { Id = new Guid(txtIDProduto.Text) });
+            this.notaAtual.RemoverProduto(new NotaEntradaProduto() { Id = new Guid(txtIDProduto.Text) });
             this.controller.InsertOrUpdate(this.notaAtual);
             UpdateProdutosGrid();
             ClearControlsProduto();
             ChangeStatusOfControls(false);
         }
-
 
     }
 }

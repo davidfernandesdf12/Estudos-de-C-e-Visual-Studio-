@@ -16,6 +16,8 @@ namespace ModelProject
         public DateTime DataEntrada { get; set; }
         public IList<NotaEntradaProduto> Produtos { get; set; }
 
+        public IList<NotaEntradaProduto> ProdutosNota = new List<NotaEntradaProduto>();
+
         #region Métodos Equals e GetHashCode
 
         protected bool Equals(NotaEntrada other)
@@ -42,6 +44,40 @@ namespace ModelProject
 
         #endregion
 
+        #region Métodos - NotaEntradaProduto
+        public void RegistrarProduto(NotaEntradaProduto produto)
+        {
+
+            if(ProdutosNota.Count > 0)
+            {
+                ProdutosNota = Produtos;
+
+                if (this.ProdutosNota.Contains(produto))
+                {
+                    this.Produtos.Remove(produto);
+                }
+                else
+                {
+                    produto.Id = Guid.NewGuid();
+                    this.Produtos.Add(produto);
+                }
+
+            }
+            else
+            {
+                produto.Id = Guid.NewGuid();
+                Produtos = ProdutosNota;
+                this.Produtos.Add(produto);
+            }
+
+
+        }
+
+        public void RemoverProduto(NotaEntradaProduto produto)
+        {
+            this.Produtos.Remove(produto);
+        }
+        #endregion
 
     }
 

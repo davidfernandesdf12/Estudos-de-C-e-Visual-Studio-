@@ -37,3 +37,4 @@ C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCa
 C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ViewProject\obj\Debug\ViewProject.exe
 C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ViewProject\obj\Debug\ViewProject.pdb
 C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ViewProject\obj\Debug\ViewProject.FormNotaEntrada.resources
+C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ViewProject\obj\Debug\ViewProject.FormNotaEntrada.resources
