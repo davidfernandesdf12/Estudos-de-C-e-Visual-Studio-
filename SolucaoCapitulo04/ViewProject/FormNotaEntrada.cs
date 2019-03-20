@@ -19,7 +19,7 @@ namespace ViewProject
         private ControllerProduto produtoController;
 
         private NotaEntrada notaAtual;
-        private IList<NotaEntradaProduto> notaEntradaProduto;
+        
 
         public FormNotaEntrada(ControllerNotaEntrada controller, FornecedorController fornecedorController, ControllerProduto produtoController)
         {
@@ -42,6 +42,8 @@ namespace ViewProject
         private void GetAllNotas()
         {
             dgvNotasEntrada.DataSource = null;
+            dgvNotasEntrada.Columns.Remove("FornecedorNota");
+            dgvNotasEntrada.Columns.Remove("Produtos");
             dgvNotasEntrada.DataSource = this.controller.GetAll();
             ClearControlsNota();
         }
@@ -128,6 +130,7 @@ namespace ViewProject
         private void UpdateProdutosGrid()
         {
             dgvProdutos.DataSource = null;
+            dgvProdutos.Columns.Remove("ProdutoNota");
             if (this.notaAtual.Produtos.Count > 0)
             {
                 dgvProdutos.DataSource = this.notaAtual.Produtos;

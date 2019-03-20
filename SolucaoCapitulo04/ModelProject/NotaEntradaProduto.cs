@@ -10,6 +10,7 @@ namespace ModelProject
     {
         public Guid Id { get; set; }
         public Produto ProdutoNota { get; set; }
+        public string nomeProduto { get { return string.IsNullOrEmpty(ProdutoNota.Descricao) ? "" : ProdutoNota.Descricao; } }
         public double PrecoCustoCompra { get; set; }
         public double QuantidadeCompra { get; set; }
 

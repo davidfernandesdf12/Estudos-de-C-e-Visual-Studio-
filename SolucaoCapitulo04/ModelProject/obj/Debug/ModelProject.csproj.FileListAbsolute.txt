@@ -1,6 +1,5 @@
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ModelProject\bin\Debug\ModelProject.dll
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ModelProject\bin\Debug\ModelProject.pdb
-C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ModelProject\obj\Debug\ModelProject.csprojAssemblyReference.cache
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ModelProject\obj\Debug\ModelProject.csproj.CoreCompileInputs.cache
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ModelProject\obj\Debug\ModelProject.dll
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolucaoCapitulo04\ModelProject\obj\Debug\ModelProject.pdb

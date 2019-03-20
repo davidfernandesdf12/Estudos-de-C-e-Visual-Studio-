@@ -47,7 +47,6 @@ namespace ModelProject
         #region Métodos - NotaEntradaProduto
         public void RegistrarProduto(NotaEntradaProduto produto)
         {
-
             if(ProdutosNota.Count > 0)
             {
                 ProdutosNota = Produtos;
