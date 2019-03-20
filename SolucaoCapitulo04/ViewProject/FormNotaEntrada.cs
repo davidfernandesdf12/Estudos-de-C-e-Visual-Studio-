@@ -42,9 +42,12 @@ namespace ViewProject
         private void GetAllNotas()
         {
             dgvNotasEntrada.DataSource = null;
-            dgvNotasEntrada.Columns.Remove("FornecedorNota");
-            dgvNotasEntrada.Columns.Remove("Produtos");
             dgvNotasEntrada.DataSource = this.controller.GetAll();
+            if (dgvNotasEntrada.Columns.Count > 0)
+            {
+                dgvNotasEntrada.Columns.Remove("FornecedorNota");
+                dgvNotasEntrada.Columns.Remove("Produtos");
+            }
             ClearControlsNota();
         }
         //function de preenchimento dos comboboxs fornecedor e produtos
@@ -98,10 +101,8 @@ namespace ViewProject
                 Numero = txtNumero.Text
             };
             notaEntrada = this.controller.InsertOrUpdate(notaEntrada);
-            dgvNotasEntrada.DataSource = null;
-            dgvNotasEntrada.DataSource = this.controller.GetAll();
+            GetAllNotas();
             dgvNotasEntrada.Columns.RemoveAt(2);
-            ClearControlsNota();
         }
 
         private void btnCancelarNota_Click(object sender, EventArgs e)
@@ -130,11 +131,15 @@ namespace ViewProject
         private void UpdateProdutosGrid()
         {
             dgvProdutos.DataSource = null;
-            dgvProdutos.Columns.Remove("ProdutoNota");
+
             if (this.notaAtual.Produtos.Count > 0)
             {
                 dgvProdutos.DataSource = this.notaAtual.Produtos;
             }
+
+            if (dgvProdutos.Columns.Count > 0)
+                dgvProdutos.Columns.Remove("ProdutoNota");
+
         }
 
         private void dgvNotasEntrada_SelectionChanged(object sender, EventArgs e)
