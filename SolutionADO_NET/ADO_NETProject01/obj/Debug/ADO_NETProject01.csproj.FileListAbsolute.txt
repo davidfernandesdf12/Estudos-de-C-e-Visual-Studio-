@@ -9,8 +9,6 @@ C:\Users\david\Source\Repos\SolutionADO_NET\ADO_NETProject01\obj\Debug\ADO_NETPr
 C:\Users\david\Source\Repos\SolutionADO_NET\ADO_NETProject01\obj\Debug\ADO_NETProject01.csproj.CoreCompileInputs.cache
 C:\Users\david\Source\Repos\SolutionADO_NET\ADO_NETProject01\obj\Debug\ADO_NETProject01.exe
 C:\Users\david\Source\Repos\SolutionADO_NET\ADO_NETProject01\obj\Debug\ADO_NETProject01.pdb
-C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\bin\Debug\App_Data\ADO_NETDataBase.mdf
-C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\bin\Debug\App_Data\ADO_NETDataBase_log.ldf
 C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\bin\Debug\ADO_NETProject01.exe.config
 C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\bin\Debug\ADO_NETProject01.exe
 C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\bin\Debug\ADO_NETProject01.pdb
@@ -21,3 +19,5 @@ C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionA
 C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\obj\Debug\ADO_NETProject01.csproj.CoreCompileInputs.cache
 C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\obj\Debug\ADO_NETProject01.exe
 C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\obj\Debug\ADO_NETProject01.pdb
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\bin\Debug\App_Data\ADO_NETDataBas.mdf
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\bin\Debug\App_Data\ADO_NETDataBas_log.ldf

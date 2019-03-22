@@ -17,6 +17,7 @@ namespace ADO_NETProject01
         public FormFornecedor()
         {
             InitializeComponent();
+            GetAllFornecedores();
         }
 
         private void btnGravar_Click(object sender, EventArgs e)
@@ -30,12 +31,41 @@ namespace ADO_NETProject01
             connection.Open();
 
             SqlCommand command = connection.CreateCommand();
-            command.CommandText = "insert into FORNECEDORES(nome, cnpj) values(@nome, @cnpj)";
-            command.Parameters.AddWithValue("@nome", txtNome);
-            command.Parameters.AddWithValue("@cnpj", txtCnpj);
+            command.CommandText = "INSERT INTO FORNECEDORES(nome, cnpj) values (@nome, @cnpj)";
+            command.Parameters.AddWithValue("@nome", txtNome.Text);
+            command.Parameters.AddWithValue("@cnpj", txtCnpj.Text);
             command.ExecuteNonQuery();
             connection.Close();
+
             MessageBox.Show("Fornecedor registrado com sucesso");
+            ClearControls();
+            GetAllFornecedores();
+        }
+
+        private void GetAllFornecedores()
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["CS_ADO_NET"].ConnectionString;
+            SqlConnection connection = new SqlConnection(connectionString);
+            connection.Open();
+
+            var adapter = new SqlDataAdapter("SELECT id, cnpj, nome FROM FORNECEDORES", connectionString);
+            var builder = new SqlCommandBuilder(adapter);
+
+            var table = new DataTable();
+            adapter.Fill(table);
+
+            dgvFornecedores.DataSource = null;
+            dgvFornecedores.DataSource = table;
+
+            connection.Close();
+
+        }
+
+        private void ClearControls()
+        {
+            txtID.Text = string.Empty;
+            txtCnpj.Text = string.Empty;
+            txtNome.Text = string.Empty;
         }
     }
 }
