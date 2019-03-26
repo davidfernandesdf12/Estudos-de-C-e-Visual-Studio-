@@ -47,49 +47,55 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 14);
+            this.label1.Location = new System.Drawing.Point(5, 17);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(21, 13);
+            this.label1.Size = new System.Drawing.Size(25, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "ID:";
             // 
             // txtID
             // 
             this.txtID.Enabled = false;
-            this.txtID.Location = new System.Drawing.Point(28, 11);
+            this.txtID.Location = new System.Drawing.Point(37, 14);
+            this.txtID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(259, 20);
+            this.txtID.Size = new System.Drawing.Size(344, 22);
             this.txtID.TabIndex = 1;
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(41, 36);
+            this.txtNome.Location = new System.Drawing.Point(55, 44);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(279, 20);
+            this.txtNome.Size = new System.Drawing.Size(371, 22);
             this.txtNome.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(4, 39);
+            this.label2.Location = new System.Drawing.Point(5, 48);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.Size = new System.Drawing.Size(49, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "Nome:";
             // 
             // txtCnpj
             // 
-            this.txtCnpj.Location = new System.Drawing.Point(43, 62);
+            this.txtCnpj.Location = new System.Drawing.Point(57, 76);
+            this.txtCnpj.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCnpj.Name = "txtCnpj";
-            this.txtCnpj.Size = new System.Drawing.Size(127, 20);
+            this.txtCnpj.Size = new System.Drawing.Size(168, 22);
             this.txtCnpj.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(4, 65);
+            this.label3.Location = new System.Drawing.Point(5, 80);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 13);
+            this.label3.Size = new System.Drawing.Size(47, 17);
             this.label3.TabIndex = 4;
             this.label3.Text = "CNPJ:";
             // 
@@ -97,44 +103,48 @@
             // 
             this.tableLayoutPanel1.ColumnCount = 4;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 101F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 107F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 101F));
             this.tableLayoutPanel1.Controls.Add(this.btnRemover, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnCancelar, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnGravar, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnNovo, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(7, 88);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(9, 108);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(313, 32);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(417, 39);
             this.tableLayoutPanel1.TabIndex = 6;
             // 
             // btnRemover
             // 
-            this.btnRemover.Location = new System.Drawing.Point(240, 3);
+            this.btnRemover.Location = new System.Drawing.Point(320, 4);
+            this.btnRemover.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRemover.Name = "btnRemover";
-            this.btnRemover.Size = new System.Drawing.Size(70, 26);
+            this.btnRemover.Size = new System.Drawing.Size(93, 31);
             this.btnRemover.TabIndex = 10;
             this.btnRemover.Text = "Remover";
             this.btnRemover.UseVisualStyleBackColor = true;
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(160, 3);
+            this.btnCancelar.Location = new System.Drawing.Point(213, 4);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(74, 26);
+            this.btnCancelar.Size = new System.Drawing.Size(99, 31);
             this.btnCancelar.TabIndex = 9;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
             // 
             // btnGravar
             // 
-            this.btnGravar.Location = new System.Drawing.Point(84, 3);
+            this.btnGravar.Location = new System.Drawing.Point(112, 4);
+            this.btnGravar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGravar.Name = "btnGravar";
-            this.btnGravar.Size = new System.Drawing.Size(70, 26);
+            this.btnGravar.Size = new System.Drawing.Size(93, 31);
             this.btnGravar.TabIndex = 8;
             this.btnGravar.Text = "Gravar";
             this.btnGravar.UseVisualStyleBackColor = true;
@@ -142,9 +152,10 @@
             // 
             // btnNovo
             // 
-            this.btnNovo.Location = new System.Drawing.Point(3, 3);
+            this.btnNovo.Location = new System.Drawing.Point(4, 4);
+            this.btnNovo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNovo.Name = "btnNovo";
-            this.btnNovo.Size = new System.Drawing.Size(75, 26);
+            this.btnNovo.Size = new System.Drawing.Size(100, 31);
             this.btnNovo.TabIndex = 7;
             this.btnNovo.Text = "Novo";
             this.btnNovo.UseVisualStyleBackColor = true;
@@ -152,16 +163,18 @@
             // dgvFornecedores
             // 
             this.dgvFornecedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvFornecedores.Location = new System.Drawing.Point(7, 129);
+            this.dgvFornecedores.Location = new System.Drawing.Point(9, 159);
+            this.dgvFornecedores.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvFornecedores.Name = "dgvFornecedores";
-            this.dgvFornecedores.Size = new System.Drawing.Size(313, 205);
+            this.dgvFornecedores.Size = new System.Drawing.Size(417, 252);
             this.dgvFornecedores.TabIndex = 7;
+            this.dgvFornecedores.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvFornecedores_CellClick);
             // 
             // FormFornecedor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(329, 343);
+            this.ClientSize = new System.Drawing.Size(439, 422);
             this.Controls.Add(this.dgvFornecedores);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.txtCnpj);
@@ -170,6 +183,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormFornecedor";
             this.Text = "Manutenção em dados de Fornecedores";
             this.tableLayoutPanel1.ResumeLayout(false);

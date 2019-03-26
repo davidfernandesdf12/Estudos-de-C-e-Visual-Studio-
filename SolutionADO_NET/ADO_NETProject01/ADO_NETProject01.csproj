@@ -119,5 +119,11 @@
       <DependentUpon>ADO_NETDataBas.mdf</DependentUpon>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{2f075c1d-96e4-4e41-bda2-53b9c5c61621}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
