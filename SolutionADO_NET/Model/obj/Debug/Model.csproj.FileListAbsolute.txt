@@ -4,3 +4,9 @@ C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\Model\obj\Debug\Model.dll
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\Model\obj\Debug\Model.pdb
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\Model\bin\Debug\Model.dll
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\Model\bin\Debug\Model.pdb
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\Model\obj\Debug\Model.dll
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\Model\obj\Debug\Model.pdb

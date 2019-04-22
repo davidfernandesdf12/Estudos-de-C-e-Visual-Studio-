@@ -120,6 +120,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{e3c5263b-80e3-4be9-911b-85e1b1beed54}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{2f075c1d-96e4-4e41-bda2-53b9c5c61621}</Project>
       <Name>Model</Name>

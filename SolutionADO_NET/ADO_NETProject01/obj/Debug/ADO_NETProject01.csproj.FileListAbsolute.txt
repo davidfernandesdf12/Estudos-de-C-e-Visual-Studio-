@@ -36,3 +36,8 @@ C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\bin\Debug\Model.dll
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\bin\Debug\Model.pdb
 C:\Users\David Fernandes\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\obj\Debug\ADO_NETProject01.csproj.CopyComplete
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\bin\Debug\Model.dll
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\bin\Debug\Model.pdb
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\obj\Debug\ADO_NETProject01.csproj.CopyComplete
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\bin\Debug\DAL.dll
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\ADO_NETProject01\bin\Debug\DAL.pdb

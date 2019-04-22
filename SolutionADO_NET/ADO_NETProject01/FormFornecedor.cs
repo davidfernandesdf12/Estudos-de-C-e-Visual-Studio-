@@ -10,12 +10,14 @@ using System.Windows.Forms;
 using System.Configuration;
 using System.Data.SqlClient;
 using Model;
+using DAL;
 
 namespace ADO_NETProject01
 {
     public partial class FormFornecedor : Form
     {
         private Fornecedor fornecedorAtual;
+        private DAL_Fonecedor dal = new DAL_Fonecedor();
 
         public FormFornecedor()
         {
@@ -26,16 +28,15 @@ namespace ADO_NETProject01
 
         private void btnGravar_Click(object sender, EventArgs e)
         {
-            using (var connection = DBConnection.DB_Connection)
-            {
-                connection.Open();
-                SqlCommand command = connection.CreateCommand();
-                command.CommandText = "INSERT INTO FORNECEDORES(nome, cnpj) values (@nome, @cnpj)";
-                command.Parameters.AddWithValue("@nome", txtNome.Text);
-                command.Parameters.AddWithValue("@cnpj", txtCnpj.Text);
-                command.ExecuteNonQuery();
-            }
-            MessageBox.Show("Fornecedor registrado com sucesso");
+            Fornecedor fornecedor = new Fornecedor(){
+                Id = !string.IsNullOrEmpty(txtID.Text) ? long.Parse(txtID.Text) : (long?)null,
+                Nome = txtNome.Text,
+                Cnpj = txtCnpj.Text
+            };
+
+            this.dal.SaveOrUpdate(fornecedor);
+
+            //MessageBox.Show("Fornecedor registrado com sucesso");
             ClearControls();
             GetAllFornecedores();
         }
@@ -52,7 +53,6 @@ namespace ADO_NETProject01
             var table = new DataTable();
             adapter.Fill(table);
 
-            dgvFornecedores.DataSource = null;
             dgvFornecedores.DataSource = table;
 
             connection.Close();
@@ -64,6 +64,9 @@ namespace ADO_NETProject01
             txtID.Text = string.Empty;
             txtCnpj.Text = string.Empty;
             txtNome.Text = string.Empty;
+            GetAllFornecedores();
+            dgvFornecedores.ClearSelection();
+            this.fornecedorAtual = null;
             txtNome.Focus();
         }
 
@@ -90,20 +93,37 @@ namespace ADO_NETProject01
 
         private void dgvFornecedores_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if(e.RowIndex != 1)
-            {
-                MessageBox.Show("Fornecedor Inexistente");
-            }
-            else
+            if(dgvFornecedores.Rows.Count > 0)
             {
                 this.fornecedorAtual = GetFornecedorById(Convert.ToInt64(dgvFornecedores.Rows[e.RowIndex].Cells[0].Value));
                 txtID.Text = this.fornecedorAtual.Id.ToString();
                 txtNome.Text = this.fornecedorAtual.Nome;
                 txtCnpj.Text = this.fornecedorAtual.Cnpj;
             }
+            else
+            {
+                MessageBox.Show("Fornecedor Inexistente");
+            }
 
+        }
 
+        private void btnNovo_Click(object sender, EventArgs e)
+        {
+            ClearControls();
+        }
 
+        private void btnRemover_Click(object sender, EventArgs e)
+        {
+            if(txtID.Text == string.Empty)
+            {
+                MessageBox.Show("Selecione o FORNECEDOR a ser removido no GRID");
+            }
+            else
+            {
+                this.dal.RemoveById(this.fornecedorAtual.Id);
+                ClearControls();
+                MessageBox.Show("Fornecedor removido com sucesso");
+            }
         }
     }
 }

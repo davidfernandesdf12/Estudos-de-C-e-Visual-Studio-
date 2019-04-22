@@ -1,0 +1,9 @@
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\DAL\bin\Debug\DAL.dll
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\DAL\bin\Debug\DAL.pdb
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\DAL\bin\Debug\Model.dll
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\DAL\bin\Debug\Model.pdb
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\DAL\obj\Debug\DAL.dll
+C:\Users\david\Documents\Desenvolvimento\Estudos-de-C-e-Visual-Studio-\SolutionADO_NET\DAL\obj\Debug\DAL.pdb
